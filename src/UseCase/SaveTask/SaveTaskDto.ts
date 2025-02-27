@@ -1,5 +1,4 @@
 export default class SaveTaskDto {
-  id: null | number;
-
-  name: string;
+  id?: number;
+  name: string = ''; // Définit une valeur par défaut vide
 }
